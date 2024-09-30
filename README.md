@@ -97,10 +97,7 @@ Health Check Server provides an RPC API to query the server's status. The main r
     sudo systemctl daemon-reload
     ```
 
-2. Start the service and ena
-
-Chat AI Bot - Chat GPT | Midjourney | Claude | Gemini, [30.09.2024 20:14]
-ble it to run on boot:
+2. Start the service and enable it to run on boot:
     ```bash
     sudo systemctl start health_server
     sudo systemctl enable health_server
